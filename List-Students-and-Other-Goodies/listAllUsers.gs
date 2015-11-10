@@ -5,7 +5,7 @@ function listAllStudents() {
   now = new Date();
   do {
     page = AdminDirectory.Users.list({
-      domain: 'YOUR_DOMAIN',
+      domain: 'pd.boston.gov',
       orderBy: 'givenName',
       maxResults: 100,
       pageToken: pageToken
