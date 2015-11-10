@@ -1,5 +1,5 @@
 //variables to pass from UI
-var domain = 'YOUR_DOMAIN'
+var domain = 'pd.boston.gov'
 var ss = SpreadsheetApp.openById('SPREADSHEET_ID');
 
 //start functions
